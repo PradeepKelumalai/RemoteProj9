@@ -1,0 +1,20 @@
+Setting Basic Options in vi
+Displaying Line Numbers
+
+    From Command Mode
+  
+    :set nu    Display line numbers
+  
+    :set nonu  Hide line numbers
+  
+Setting Right Margin
+
+    From Command Mode
+  
+    :set wm=number  Set Wrap Margin number of spaces from right
+                              edge of screen
+  
+    :set wm=10      Set Wrap Margin 10 spaces from right edge
+                              of screen
+  
+    :set wm=0       Turn off Wrap Margin
