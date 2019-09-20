@@ -18,3 +18,17 @@ Setting Right Margin
                               of screen
   
     :set wm=0       Turn off Wrap Margin
+
+
+Exiting vi
+To exit you must be in command mode-press <Esc> if you are not in command mode
+You must press <Return> after commands that begin with a : (colon)
+    From Command Mode
+
+    ZZ     Write (if there were changes), then quit
+  
+    :wq    Write, then quit
+  
+    :q     Quit (will only work if file has not been changed)
+  
+    :q!    Quit without saving changes to file
